@@ -3,7 +3,7 @@ import { InjectRepository } from "@nestjs/typeorm";
 import { randomUUID } from "crypto";
 import { Repository } from "typeorm";
 import { Lesson } from "./lesson.entity";
-import { CreateLessonInput } from "./lesson.input";
+import { CreateLessonInput } from "./create-lesson.input";
 
 @Injectable()
 export class LessonService {
